@@ -1,0 +1,20 @@
+textarea {
+    border: none;
+    border-bottom: 1px solid black !important;
+    border-radius: 15px;
+}
+
+.fa-check {
+    color: white;
+}
+
+.past {
+    text-decoration: line-through;
+    text-decoration-color: white;
+}
+
+.present {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
