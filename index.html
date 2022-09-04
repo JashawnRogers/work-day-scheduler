@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work Day Scheduler</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"/>
+    
+</head>
+<body class="bg-secondary text-white" style="opacity: .75;">
+    <header class="jumbotron">
+        <h1 class="display-1 p-2 d-flex justify-content-center font-weight-bold">Work Day Scheduler</h1>
+        <p class="d-flex p-2 justify-content-center display-2" id="todaysDate"></p>
+    </header>
+    <br>
+    <div class="container">
+        <div class="row p-1" id="09">
+            <div class="col-2">
+                <p class="text-center fs-4">9AM</p>
+            </div>
+            <textarea class="col-8 text-center" placeholder="Add task"></textarea>
+            <button class="col-2 btn saveBtn">
+                <i class="fa-solid fa-check"></i>
+            </button>
+        </div>
+
+        <div class="row p-1" id="10">
+            <div class="col-2">
+                <p class="text-center fs-4">10AM</p>
+            </div>
+            <textarea class="col-8 text-center" placeholder="Add task"></textarea>
+            <button class="col-2 btn saveBtn">
+                <i class="fa-solid fa-check"></i>
+            </button>
+        </div>
+
+        <div class="row p-1" id="11">
+            <div class="col-2">
+                <p class="text-center fs-4">11AM</p>
+            </div>
+            <textarea class="col-8 text-center" placeholder="Add task"></textarea>
+            <button class="col-2 btn saveBtn">
+                <i class="fa-solid fa-check"></i>
+            </button>
+        </div>
+
+        <div class="row p-1" id="12">
+            <div class="col-2">
+                <p class="text-center fs-4">12PM</p>
+            </div>
+            <textarea class="col-8 text-center" placeholder="Add task"></textarea>
+            <button class="col-2 btn saveBtn">
+                <i class="fa-solid fa-check"></i>
+            </button>
+        </div>
+
+        <div class="row p-1" id="13">
+            <div class="col-2">
+                <p class="text-center fs-4">1PM</p>
+            </div>
+            <textarea class="col-8 text-center" placeholder="Add task"></textarea>
+            <button class="col-2 btn saveBtn">
+                <i class="fa-solid fa-check"></i>
+            </button>
+        </div>
+
+        <div class="row p-1" id="14">
+            <div class="col-2">
+                <p class="text-center fs-4">2PM</p>
+            </div>
+            <textarea class="col-8 text-center" placeholder="Add task"></textarea>
+            <button class="col-2 btn saveBtn">
+                <i class="fa-solid fa-check"></i>
+            </button>
+        </div>
+
+        <div class="row p-1" id="15">
+            <div class="col-2">
+                <p class="text-center fs-4">3PM</p>
+            </div>
+            <textarea class="col-8 text-center" placeholder="Add task"></textarea>
+            <button class="col-2 btn saveBtn">
+                <i class="fa-solid fa-check"></i>
+            </button>
+        </div>
+
+        <div class="row p-1" id="16">
+            <div class="col-2">
+                <p class="text-center fs-4">4PM</p>
+            </div>
+            <textarea class="col-8 text-center" placeholder="Add task"></textarea>
+            <button class="col-2 btn saveBtn">
+                <i class="fa-solid fa-check"></i>
+            </button>
+        </div>
+
+        <div class="row p-1" id="17">
+            <div class="col-2">
+                <p class="text-center fs-4">5PM</p>
+            </div>
+            <textarea class="col-8 text-center" placeholder="Add task"></textarea>
+            <button class="col-2 btn saveBtn">
+                <i class="fa-solid fa-check"></i>
+            </button>
+        </div>
+
+
+        <div class="d-flex justify-content-center mt-2 mb-3">
+            <button class="btn bg-white text-black" id="clearBtn">Clear Tasks</button>
+        </div>
+
+        
+        
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="/assets/script.js"></script>
+</body>
+</html>
